@@ -13,11 +13,11 @@ export const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        After graduating, I spent five years in teaching while simultaneously upskilling through online courses and hands-on IT projects. During this time, I discovered my passion for data analysis and made the deliberate decision to pursue it as my career.
-                        <br />
-                        Currently I am pursuing a full-time opportunity where I can apply my capabilities to solve business challenges and support strategic growth.
-                        <br />
-                        When I'm not working, I like to spend my time on things that fresh my mind and give me the inner peace that helps me at my work.
+                        After graduating, I spent five years in teaching while simultaneously upskilling through online courses and hands-on IT projects. During this time, I discovered my passion for data analysis and made the deliberate decision to pursue it as a career.
+                        <br /><br />
+                        I am now seeking a full-time opportunity where I can apply my skills to solve business challenges and support strategic growth.
+                        <br /><br />
+                        Outside of work, I enjoy activities that refresh my mind and bring inner peace, helping me stay focused and energized in my professional life.
                     </p>
                     {/* <p className="about__description">
                         Believe in the philosophy of life-long learning. 

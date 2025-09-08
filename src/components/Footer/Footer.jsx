@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa"
 import { MdOutlineMailOutline } from "react-icons/md"
-import { GoHome } from "react-icons/go";
+import { FaLinkedin } from "react-icons/fa6";
 import "./footer.css"
 
 export const Footer = () => {
@@ -22,8 +22,9 @@ export const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://github.com/sujit12x10/" className="home__social-icon" target="_blank"><FaGithub /></a>
-                    <a href="mailto:sujit12x10@gmail.com" className="home__social-icon" target="_blank"><MdOutlineMailOutline /></a>
+                    <a href="https://github.com/sujit10x12/" className="home__social-icon" target="_blank"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/sujit10x12/" className="home__social-icon" target="_blank"><FaLinkedin /></a>
+                    <a href="mailto:sujit10x12@gmail.com" className="home__social-icon" target="_blank"><MdOutlineMailOutline /></a>
                 </div>
 
                 <span className="footer__copy">

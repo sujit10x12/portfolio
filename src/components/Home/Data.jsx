@@ -54,11 +54,10 @@ export const Data = () => {
             </h1>
             <h3 className="home__subtitle">Data Analyst</h3>
             <p className="home__description">
-                Welcome! I'm Sujeet Singh, A detail-oriented data analyst skilled in SQL, Python, and data visualization.
-                <br />
-                Proficient in querying large datasets, uncovering trends, and delivering actionable insights via dynamic reporting and dashboards.
-                <br />
-                I'm hoping to find a job with a respectable company where I can continue to grow while also helping the company grow over time.
+                Motivated and detail-oriented professional skilled in Excel, SQL, Tableau, Power BI, and Python (Pandas, NumPy, Matplotlib, Seaborn). Experienced in analyzing real-world datasets and delivering actionable insights. 
+                <br /> <br />
+                Seeking opportunities to apply analytical and technical skills to drive data-informed decisions across diverse business areas. I'm aiming to join a respectable company where I can continue to grow while also helping the company grow over time.
+                
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

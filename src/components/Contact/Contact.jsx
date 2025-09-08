@@ -43,9 +43,9 @@ export const Contact = () => {
                         <div className="contact__card">
                             <span className="contact__card-icon"><MdOutlineMailOutline /></span>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">sujit12x10@gmail.com</span>
+                            <span className="contact__card-data">sujit10x12@gmail.com</span>
 
-                            <a href="mailto:sujit12x10@gmail.com" className="contact__button">Write Me <MdDoubleArrow className="contact__button-icon"/></a>
+                            <a href="mailto:sujit10x12@gmail.com" className="contact__button">Write Me <MdDoubleArrow className="contact__button-icon"/></a>
                         </div>
 
                         <div className="contact__card">
