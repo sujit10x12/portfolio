@@ -33,51 +33,14 @@ export const Qualification = () => {
                     <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Django Rest Framework</h3>
+                                <h3 className="qualification__title">Data Analyst Program</h3>
                                 <span className="qualification__subtitle">
-                                    Coursera
+                                    Online Courses
                                 </span>
                                 <div className="qualification__calender">
-                                    <span><IoCalendarOutline /> January 2024</span>
+                                    <span><IoCalendarOutline />2024</span>
                                 </div>
                             </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Django Framework</h3>
-                                <span className="qualification__subtitle">
-                                    Coursera
-                                </span>
-                                <div className="qualification__calender">
-                                    <span><IoCalendarOutline /> October 2023</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Web Development</h3>
-                                <span className="qualification__subtitle">
-                                    Coursera
-                                </span>
-                                <div className="qualification__calender">
-                                    <span><IoCalendarOutline /> January 2023</span>
-                                </div>
-                            </div>
-
 
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -96,10 +59,47 @@ export const Qualification = () => {
                             <div>
                                 <h3 className="qualification__title">Python</h3>
                                 <span className="qualification__subtitle">
-                                    Google
+                                    Google/Coursera
                                 </span>
                                 <div className="qualification__calender">
                                     <span><IoCalendarOutline /> September 2022</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Introduction to Programming</h3>
+                                <span className="qualification__subtitle">
+                                    Online Courses
+                                </span>
+                                <div className="qualification__calender">
+                                    <span><IoCalendarOutline /> 2021</span>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Educator</h3>
+                                <span className="qualification__subtitle">
+                                    Local Schools & Tuition
+                                </span>
+                                <div className="qualification__calender">
+                                    <span><IoCalendarOutline /> Dec 2020 - Present</span>
                                 </div>
                             </div>
                         </div>
@@ -122,6 +122,7 @@ export const Qualification = () => {
                         </div>
                     </div>
 
+                    {/* Qualification */}
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <p>
                             Gained practical experience by completing multiple personal projects, applying skills in SQL, Python, Excel, and data visualization to analyze real-world datasets and derive actionable insights. 
