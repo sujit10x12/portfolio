@@ -14,7 +14,7 @@ export const WorkItems = ({item}) => {
                     <h3 className="work__title">{item.title}</h3>
                     {/* <p onClick={() => setToggleState(true)}>Detail</p> */}
                     <a href={item.link} target="_blank" className="work__button">
-                        Demo <FaArrowRightLong className="work__button-icon"/>
+                        View <FaArrowRightLong className="work__button-icon"/>
                     </a>    
                 </div>
                 <div className="work__detail-tools">
