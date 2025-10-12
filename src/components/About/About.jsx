@@ -13,9 +13,9 @@ export const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        After graduating, I spent five years in teaching while simultaneously upskilling through online courses and hands-on IT projects. During this time, I discovered my passion for data analysis and made the deliberate decision to pursue it as a career.
+                        After completing my B.Com in 2020, I explored opportunities in web development and built programming skills. While applying for jobs, I realized that most roles were geared toward engineering graduates, which led me to reassess my career path. During this time, I worked as a Private Educator, supporting students in commerce and related subjects—an experience that enhanced my communication, problem-solving, and analytical abilities.
                         <br /><br />
-                        I am now seeking a full-time opportunity where I can apply my skills to solve business challenges and support strategic growth.
+                        In 2024, I transitioned into data analytics, a field that perfectly combines my commerce background with my programming skills in Python and SQL. Since then, I have strengthened my expertise in SQL, Power BI, Python, and Excel, and developed finance and business-focused projects to prepare for a data analyst role.
                         <br /><br />
                         Outside of work, I enjoy activities that refresh my mind and bring inner peace, helping me stay focused and energized in my professional life.
                     </p>

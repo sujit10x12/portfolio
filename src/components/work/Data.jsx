@@ -3,6 +3,7 @@ import coffee from "../../assets/coffee.jpg"
 import card from "../../assets/card.png"
 import beverages from "../../assets/beverages.png"
 import tableau from "../../assets/tableau.png"
+import bank from "../../assets/bank.png"
 
 
 export const projectData = [
@@ -52,13 +53,22 @@ export const projectData = [
     //     description: ["A simple web application created with Django, JavaScript and Bootstrap. It randomly choose a winner between two teams. You can play a full IPL tournament and 1 team emerged as a winner randomly."]
     // },
     {
-        id: 6,
+        id: 5,
         image: tableau,
-        title: "Store API DRF",
+        title: "Calwest E-Commerce Performance",
         category: "DRF",
         link: "https://sujit1210.pythonanywhere.com/api/v1/",
-        tools: ["Excel", "Tableau", "Github"],
+        tools: ["Tableau Public", "Excel/CSV", "Data Modeling", "Github"],
         description: ["An interactive dashboard project built with Tableau to explore and visualize key sales metrics, customer behavior, and regional performance using historical sales data. This project provides a comprehensive overview of business performance through actionable insights and well-structured visualizations."]
+    },
+    {
+        id: 6,
+        image: bank,
+        title: "Bank Loan Report",
+        category: "",
+        link: "https://github.com/sujit10x12/bank-loan-analysis-report",
+        tools: ["PostgreSQL", "Tableau", "Excel/CSV"],
+        description: ["This project demonstrates my ability to combine SQL data analysis with Tableau visualization to build a complete financial reporting system. I used SQL to clean, process, and aggregate raw bank loan data, and Tableau to design interactive dashboards that uncover insights about loan performance, customer demographics, and financial health."]
     },
 ]
 

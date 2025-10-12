@@ -3,6 +3,7 @@ import dax from "../../assets/certificates/dax.jpg"
 import google from "../../assets/certificates/google.jpg"
 import sql from "../../assets/certificates/sql.jpg"
 import python from "../../assets/certificates/python.jpg"
+import tableau from "../../assets/certificates/tableau.jpg"
 
 export const Data = [
     {
@@ -60,7 +61,7 @@ export const Data = [
         title: "Intermidate DAX & Time Intelligence",
         category: "react",
         link: "https://www.coursera.org/account/accomplishments/certificate/5V42PI3ZGV4T",
-        tools: ["Jupyter Notebook", "Pandas", "Matplotlib", "Seaborn", "Github"],
+        tools: ["Expressions (DAX)", "Data Modeling", "Microsoft Excel", "Power BI", "Time Series Analysis and Forecasting", "Business Intelligence"],
         description: [
             "Learned core DAX concepts: measures, calculated columns, row context, and filter context",
             "Understood the difference between scalar functions (single values) and table functions (returning tables)",
@@ -84,15 +85,20 @@ export const Data = [
             "Developed and evaluated regression models using Scikit-learn to generate predictions and support data-driven decision-making"
         ]
     },
-    // {
-    //     id: 6,
-    //     image: tableau,
-    //     title: "Store API DRF",
-    //     category: "DRF",
-    //     link: "https://sujit1210.pythonanywhere.com/api/v1/",
-    //     tools: ["Excel", "Tableau", "Github"],
-    //     description: ["An interactive dashboard project built with Tableau to explore and visualize key sales metrics, customer behavior, and regional performance using historical sales data. This project provides a comprehensive overview of business performance through actionable insights and well-structured visualizations."]
-    // },
+    {
+        id: 6,
+        image: tableau,
+        title: "Advanced Tableau Specialization",
+        category: "DRF",
+        link: "https://www.coursera.org/account/accomplishments/specialization/4EG8JSN9SLL4",
+        tools: ["Tableau", "Table Calculations", "LOD Calculations", "Data Modeling", "Data Transformation", "ETL", "Data Modeling", "Star Schema"],
+        description: [
+            "Developed the ability to generate data-driven insights that address real business questions.",
+            "Mastered Table Calculations, Level of Detail (LOD) Calculations, and Data Modeling to handle complex analytical challenges.",
+            "Learned how to combine multiple data sources, build relationships, and ensure accurate data representation in dashboards.",
+            "Applied advanced analytical and visualization techniques to design a comprehensive Trading Dashboard, showcasing performance, trends, and KPIs in an interactive format."
+        ]
+    },
 ]
 
 
