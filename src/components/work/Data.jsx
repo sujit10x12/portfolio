@@ -77,9 +77,6 @@ export const projectNav = [
         name: "all",
     },
     {
-        name: "Excel"
-    },
-    {
         name: "Python",
     },
     {
