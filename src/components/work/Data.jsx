@@ -1,5 +1,6 @@
 import bed from "../../assets/dashboard.png"
 import coffee from "../../assets/coffee.jpg"
+import financial from "../../assets/financial-report.png"
 import card from "../../assets/card.png"
 import beverages from "../../assets/beverages.png"
 import tableau from "../../assets/tableau.png"
@@ -18,8 +19,8 @@ export const projectData = [
     },
     {
         id: 2,
-        image: coffee,
-        title: "Coffee Shop Sales Analysis",
+        image: financial,
+        title: "Financial Statements in PowerBi",
         category: "react",
         link: "https://blake-online-store.vercel.app/",
         tools: ["PostgreSQL", "Power BI", "DAX", "Github"],
