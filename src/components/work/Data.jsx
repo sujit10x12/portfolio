@@ -8,6 +8,7 @@ import bank from "../../assets/porjects/bank.png"
 import trading from "../../assets/porjects/trading.png"
 import bigwings from "../../assets/porjects/bigwings.png"
 import powerquery from "../../assets/porjects/powerquery.png"
+import hotel from "../../assets/porjects/hotel.png"
 
 
 export const projectData = [
@@ -73,6 +74,16 @@ export const projectData = [
     },
     {
         id: 7,
+        isFeaturedProject: false,
+        image: hotel,
+        title: "Beverages Sales EDA",
+        category: "Python Work",
+        link: "https://github.com/sujit10x12/beverage-sales-eda",
+        tools: ["Jupyter Notebook", "Pandas", "Matplotlib", "Seaborn", "Github"],
+        description: ["A Bloging Website that I have created with React, Appwrite, TinyMCE, React-Redux, React-Router-Dom, Tailwindcss. We can create a post, edit it, delete it and leave some comment in it."]
+    },
+    {
+        id: 8,
         isFeaturedProject: true,
         image: tableau,
         title: "Calwest E-Commerce Performance",
@@ -82,7 +93,7 @@ export const projectData = [
         description: ["An interactive dashboard project built with Tableau to explore and visualize key sales metrics, customer behavior, and regional performance using historical sales data. This project provides a comprehensive overview of business performance through actionable insights and well-structured visualizations."]
     },
     {
-        id: 8,
+        id: 9,
         isFeaturedProject: true,
         image: trading,
         title: "Bank Loan Report",
@@ -92,7 +103,7 @@ export const projectData = [
         description: ["This project demonstrates my ability to combine SQL data analysis with Tableau visualization to build a complete financial reporting system. I used SQL to clean, process, and aggregate raw bank loan data, and Tableau to design interactive dashboards that uncover insights about loan performance, customer demographics, and financial health."]
     },
     {
-        id: 9,
+        id: 10,
         isFeaturedProject: false,
         image: bank,
         title: "Bank Loan Report",
@@ -102,7 +113,7 @@ export const projectData = [
         description: ["This project demonstrates my ability to combine SQL data analysis with Tableau visualization to build a complete financial reporting system. I used SQL to clean, process, and aggregate raw bank loan data, and Tableau to design interactive dashboards that uncover insights about loan performance, customer demographics, and financial health."]
     },
     {
-        id: 10,
+        id: 11,
         isFeaturedProject: false,
         image: coffee,
         title: "Coffee Shop-Sales Performance Analysis",
