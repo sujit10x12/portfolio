@@ -32,8 +32,14 @@ export const WorkItems = ({item}) => {
                 <div className="detail__modal-content">
                     <span onClick={() => setToggleState(false)} className="detail__modal-close"><IoClose /></span>
                     <div className="detail__modal-description">
+                        <ul style={{ listStyleType: "disc", marginLeft: "20px" }}>
                         <h3 className="detail__modal-title">{item.title}</h3>
-                        <p>{item.description}</p>
+                            {
+                                item.description.map((item, index) => 
+                                    <li key={index} style={{ marginBottom: "8px" }}>{item}</li>
+                                )
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>
