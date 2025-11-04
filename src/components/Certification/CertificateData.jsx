@@ -4,6 +4,7 @@ import google from "../../assets/certificates/google.jpg"
 import sql from "../../assets/certificates/sql.jpg"
 import python from "../../assets/certificates/python.jpg"
 import tableau from "../../assets/certificates/tableau.jpg"
+import powerbiFinance from "../../assets/certificates/finance-powerbi.jpg"
 
 export const Data = [
     {
@@ -46,7 +47,7 @@ export const Data = [
         link: "https://www.coursera.org/account/accomplishments/certificate/0JYAB1DOALB1",
         tools: ["SQL", "Filtering", "Sorting", "Grouping", "Joins", "Aggregation", "Subqueries"],
         description: [
-             "Performed data sorting, filtering, and aggregation to uncover insights",
+            "Performed data sorting, filtering, and aggregation to uncover insights",
             "Applied SQL skills in real-world scenarios through practical exercises",
             "Worked with relational databases and performed data manipulation and transformation",
             "Understood and applied data warehousing concepts",
@@ -57,18 +58,19 @@ export const Data = [
     },
     {
         id: 4,
-        image: dax,
-        title: "Intermidate DAX & Time Intelligence",
-        category: "react",
-        link: "https://www.coursera.org/account/accomplishments/certificate/5V42PI3ZGV4T",
-        tools: ["Expressions (DAX)", "Data Modeling", "Microsoft Excel", "Power BI", "Time Series Analysis and Forecasting", "Business Intelligence"],
+        image: powerbiFinance,
+        title: "BI Essentials for Finance Analysts (Power BI Edition)",
+        category: "certificate",
+        link: "https://www.coursera.org/account/accomplishments/specialization/NWTWPZBUI7GV",
+        tools: ["Financial Analysis", "Power BI", "Microsoft Excel", "Expressions (DAX)", "Data Modeling", "Business Intelligence"],
         description: [
-            "Learned core DAX concepts: measures, calculated columns, row context, and filter context",
-            "Understood the difference between scalar functions (single values) and table functions (returning tables)",
-            "Applied DAX concepts within data models for efficient analysis",
-            "Manipulated and transformed data using table functions",
-            "Analyzed data trends over time with date and time intelligence functions",
-            "Integrated DAX Studio with Excel and Power BI to streamline development and improve performance"
+            "Developed advanced data analysis skills by manipulating, transforming, and visualizing data using Microsoft Power BI",
+            "Integrated and sourced data directly from SQL databases, ensuring accuracy and efficiency in reporting",
+            "Designed and automated financial statement dashboards (Income Statement, Balance Sheet, and Cash Flow) using Power BI and Excel",
+            "Compared and evaluated the capabilities of Excel and Power BI for financial reporting and automation tasks",
+            "Applied practical data modeling and DAX techniques to create dynamic, real-time reports",
+            "Gained hands-on experience in connecting, transforming, and visualizing business data from multiple sources",
+            "Completed a financial statement analysis case study, demonstrating end-to-end BI implementation and analytical interpretation"
         ]
     },
     {

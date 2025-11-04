@@ -17,9 +17,9 @@ export const projectData = [
         isFeaturedProject: true,
         image: financial,
         title: "🧾 Financial Statements in PowerBi",
-        category: ["PowerBi Work", "SQL Work"],
+        category: ["PowerBi Work", "SQL Work", "Excel Work"],
         link: "https://github.com/sujit10x12/financial-statements-in-powerbi",
-        tools: ["PostgreSQL", "Power BI", "DAX", "Github"],
+        tools: ["Power BI", "Excel", "SQL", "DAX", "Github"],
         description: [
             "GL Retail Corporation — a multi-store retail company — sought to automate its financial reporting and improve decision-making through modern BI tools.I designed and implemented an end-to-end Financial Reporting Automation System using Power BI and Excel, integrating multiple data sources into a unified analytical model.",
             "The solution replaced manual, Excel-based workflows with automated financial statements — including the Income Statement, Balance Sheet, and Cash Flow Reports — all refreshed directly from the company’s SQL database."
@@ -27,6 +27,19 @@ export const projectData = [
     },
     {
         id: 2,
+        isFeaturedProject: true,
+        image: bed,
+        title: "🛏️ Head Rest Bed Company Sales Analysis",
+        category: "Excel Work",
+        link: "https://github.com/sujit10x12/excel-sales-dashboard",
+        tools: ["Excel", "Power Query", "Power Pivot", "Pivot Tables", "DAX"],
+        description: [
+            "This project features two interactive dashboards built in Excel using Power Query, Power Pivot, and Pivot Tables/Charts to deliver automated business insights. The goal was to transform raw sales and operational data into a structured, dynamic reporting system.",
+            "The dashboards provide a comprehensive business overview and detailed store performance analysis, enabling management to monitor key metrics, compare sales trends, and make informed decisions — all within an intuitive Excel environment."
+        ]
+    },
+    {
+        id: 3,
         isFeaturedProject: false,
         image: bigwings,
         title: "✈️ BigWings vs Competitors",
@@ -39,29 +52,16 @@ export const projectData = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         isFeaturedProject: false,
         image: powerquery,
         title: "⚙️ Power Query Challenges",
         category: "Excel Work",
-        link: "https://github.com/sujit10x12/bigwings-airline-performance-excel",
+        link: "https://github.com/sujit10x12/power-query-challenges",
         tools: ["Excel", "Power Query", "Power Pivot", "Pivot Tables", "DAX"],
         description: [
             "While not a full-scale professional project, this challenge represents a key learning milestone where I developed the ability to automate and structure data efficiently using Power Query. It laid the foundation for understanding how raw data is transformed into reliable, analysis-ready datasets.",
             "Through hands-on exercises, I practiced data extraction, cleaning, reshaping, and consolidation from multiple sources. I learned how to remove unwanted rows, unpivot tables, combine files, and handle errors systematically, gaining a deeper appreciation of how data preparation underpins every reporting workflow in Excel and Power BI."
-        ]
-    },
-    {
-        id: 4,
-        isFeaturedProject: true,
-        image: bed,
-        title: "🛏️ Head Rest Bed Company Sales Analysis",
-        category: "Excel Work",
-        link: "https://github.com/sujit10x12/excel-sales-dashboard",
-        tools: ["Excel", "Power Query", "Power Pivot", "Pivot Tables", "DAX"],
-        description: [
-            "This project features two interactive dashboards built in Excel using Power Query, Power Pivot, and Pivot Tables/Charts to deliver automated business insights. The goal was to transform raw sales and operational data into a structured, dynamic reporting system.",
-            "The dashboards provide a comprehensive business overview and detailed store performance analysis, enabling management to monitor key metrics, compare sales trends, and make informed decisions — all within an intuitive Excel environment."
         ]
     },
     {

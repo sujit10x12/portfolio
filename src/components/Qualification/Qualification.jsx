@@ -125,7 +125,7 @@ export const Qualification = () => {
                     {/* Qualification */}
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <p>
-                            Gained practical experience by completing multiple personal projects, applying skills in SQL, Python, Excel, and data visualization to analyze real-world datasets and derive actionable insights. 
+                            Gained hands-on experience through industry-relevant projects, leveraging SQL, Python, Excel, and data visualization to transform raw data into actionable insights.
                             <br /><br />
                             Developed interactive dashboards and reports using Tableau and Power BI to present findings clearly. These projects allowed me to strengthen my analytical and technical capabilities while exploring real-world business problems.
                         </p>

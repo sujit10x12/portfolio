@@ -1,6 +1,6 @@
 import "./about.css"
 import AboitImg from "../../assets/profile1.jpg"
-import CV from "../../assets/CV_SUJEET.pdf"
+import CV from "../../assets/SUJEET_CV.pdf"
 import { Info } from "../../index"
 
 export const About = () => {
