@@ -18,7 +18,7 @@ export const projectData = [
         image: financial,
         title: "🧾 Financial Statements in PowerBi",
         category: ["PowerBi Work", "SQL Work", "Excel Work"],
-        link: "https://github.com/sujit10x12/financial-statements-in-powerbi",
+        link: "https://github.com/sujit10x12/financial-data-automation-sql-powerbi",
         tools: ["Power BI", "Excel", "SQL", "DAX", "Github"],
         description: [
             "GL Retail Corporation — a multi-store retail company — sought to automate its financial reporting and improve decision-making through modern BI tools.I designed and implemented an end-to-end Financial Reporting Automation System using Power BI and Excel, integrating multiple data sources into a unified analytical model.",
