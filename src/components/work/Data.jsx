@@ -9,6 +9,7 @@ import trading from "../../assets/porjects/trading.png"
 import bigwings from "../../assets/porjects/bigwings.png"
 import powerquery from "../../assets/porjects/powerquery.png"
 import hotel from "../../assets/porjects/hotel.png"
+import map from "../../assets/porjects/map.png"
 
 
 export const projectData = [
@@ -153,6 +154,19 @@ export const projectData = [
         description: [
             "This project analyzes a coffee shop’s sales performance using SQL and Power BI to uncover insights on customer behavior, product demand, and revenue trends across multiple store locations. The sales data was stored and managed in PostgreSQL and prepared for analysis using SQL queries.",
             "In Power BI, I built interactive dashboards for real-time visualization, enabling stakeholders to track top-selling products, peak sales periods, and store performance. The project demonstrates how integrating data management and visualization tools can drive actionable insights and support data-driven decision-making in retail operations."
+        ]
+    },
+    {
+        id: 12,
+        isFeaturedProject: false,
+        image: map,
+        title: "🛒 Tableau Sales Analysis Dashboard",
+        category: ["Tableau Work"],
+        link: "https://github.com/sujit10x12/sales-analytics-dashboard-tableau",
+        tools: ["Tableau Public", "Excel/CSV", "Data Modeling", "Github"],
+        description: [
+            "This project involved building an interactive Sales Performance Dashboard in Tableau to analyze multi-year retail sales across products, customers, and geographic regions. Using Excel-based fact and dimension tables, I prepared and modeled the data to create a unified dataset, which was then transformed and visualized in Tableau to deliver business insights.",
+            "The dashboard includes advanced visualizations such as category-level trend analysis, geographic heatmaps, top/bottom customer performance, product profitability views, and shipping preference breakdowns. These insights allow users to explore sales drivers, identify high-value segments, and uncover patterns that influence profitability.",    
         ]
     },
 ]

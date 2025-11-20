@@ -1,0 +1,12 @@
+Rolling N-Month Total =
+	VAR NMonths = SELECTEDVALUE(RollingMonths[Value], 12)
+    RETURN
+            CALCULATE(
+                SUM(Sales[SalesAmount]),
+                DATESINPERIOD(
+                    Sales[Date],
+                    MAX(Sales[Date]),
+                    -NMonths,
+                    MONTH
+                )
+            )
